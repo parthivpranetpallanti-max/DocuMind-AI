@@ -1,0 +1,29 @@
+
+# Python virtual environment
+venv/
+Backend/venv/
+__pycache__/
+*.pyc
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Frontend build files
+dist/
+build/
+
+# Uploaded documents and generated storage
+Backend/uploaded_documents/*
+Backend/storage/*
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

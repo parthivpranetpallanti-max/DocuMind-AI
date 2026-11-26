@@ -1,0 +1,15 @@
+# API keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# React
+node_modules/
+dist/
+
+# FAISS storage
+Backend/storage/*
+Backend/uploaded_documents/*
